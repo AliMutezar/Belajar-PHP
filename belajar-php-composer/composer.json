@@ -1,0 +1,17 @@
+{
+    "name": "pzn/belajar-php-composer",
+    "description": "Belajar PHP Composer bersama mas eko kurniawan khannedy PZN",
+    "type": "project",
+    "authors": [{
+        "name" :"Ahmad Ali Mutezar",
+        "email":"aamutezar@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "PZN\\": "src/"
+        }
+    },
+    "require": {
+        "monolog/monolog": "3.1.0"
+    }
+}
