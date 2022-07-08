@@ -1,0 +1,18 @@
+{
+    "name": "composerphp/belajar-composer-hello",
+    "description": "Belajar library hello composer",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ahmad Ali Mutezar"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "PZN\\Belajar\\" : "src/"
+        }
+    }
+}
