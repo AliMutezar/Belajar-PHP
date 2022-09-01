@@ -11,7 +11,13 @@
             "PZN\\": "src/"
         }
     },
+    "repositories": [{
+        "type":"vcs",
+        "url":"https://github.com/AliMutezar/Belajar-PHP.git"
+    }],
     "require": {
+        "php": ">=8.0",
+        "composerphp/belajar-composer-hello": "v1.0.0",
         "monolog/monolog": "3.1.0"
     }
 }
