@@ -1,0 +1,26 @@
+{
+    "name": "pzn/php-unit-test",
+    "description": "Belajar PHP unit test",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Ali"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.24"
+    },
+    "autoload": {
+        "psr-4": {
+            "pzn\\Test\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "pzn\\Test\\": "test"
+        }
+    }
+}
